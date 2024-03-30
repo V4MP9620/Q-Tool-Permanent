@@ -9,9 +9,4 @@ end)
 tool.Parent = game.Players.LocalPlayer.Backpack
 wait(0.2)
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
-local Notify = AkaliNotif.Notify;
-Notify({
-Description = "sus";
-Title = "sus";
-Duration = 1;
-});
+local Notify = AkaliNotif.Notify; 
